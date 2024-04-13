@@ -16,7 +16,7 @@ def display_hash_data(hash, level = 0)
         value.each_with_index do |item, index|
           puts "#{' ' * (level * 2)}#{key} #{index + 1}:"
           display_hash_data(item, level + 1)
-          puts '' if index < value.length - 1
+          puts ' ' if index < value.length - 1
         end
       else
         decoded_value = CGI.unescapeHTML(value)
