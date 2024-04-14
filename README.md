@@ -13,6 +13,7 @@ This is a Ruby application that allows you to read and interact with RSS feeds. 
 ## Requirements
 
 - Ruby 2.6 or later
+- [rss_feed_plus](https://github.com/talaatmagdyx/rss_feed_plus)
 
 ## Installation
 
